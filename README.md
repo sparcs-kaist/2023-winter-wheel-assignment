@@ -81,6 +81,9 @@ AWS_S3_BUCKET_NAME=      # AWS S3 버킷 이름
 DB_PATH=                 # MongoDB URL
 ```
 
+`SPARCSSSO_CLIENT_ID`, `SPARCSSO_CLIENT_KEY`는 [SPARCS SSO Dev Center](https://sparcssso.kaist.ac.kr/dev/service/add/)에 SPARCS 계정으로 로그인하셔서 Dev Service Key를 발급받으시면 됩니다. 이때 `Main URL`은 배포하신 서비스의 URL, `Login Callback URL`은 `{백엔드 서버 URL}/auth/sparcssso/callback`을 입력해 주시면 됩니다. 
+
+
 자세한 내용은 [`sparcs-kaist/taxi-docker`](https://github.com/sparcs-kaist/taxi-docker) 레포지토리를 참고하세요.
 
 
