@@ -133,6 +133,9 @@ CD 워크플로우는 크게 두 단계로 구성됩니다.
 > 워크플로우를 구성해 보세요. [Github 공식 docs](https://docs.github.com/en/packages/managing-github-packages-using-github-actions-workflows/publishing-and-installing-a-package-with-github-actions)
 > 를 참고하는 것도 도움이 될 수 있습니다. 
 
+> **HINT** 
+> `client` 이미지에 사용되는 `REACT_APP_???` 환경 변수들은 빌드 시에 정적으로 주입되는 환경 변수들이므로 빌드 환경에서 정의되어 있어야 합니다.
+
 ### 새로 빌드된 이미지 기반으로 EC2의 컨테이너 재시작
 
 `platypus`님의 발표에서 다루었던 'Deploy to EC2' 워크플로우를 참고하면 비교적 쉽게 구성할 수 있습니다.
