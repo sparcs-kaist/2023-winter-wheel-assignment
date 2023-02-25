@@ -72,8 +72,8 @@ REACT_APP_S3_URL=        # S3 버킷의 URL
 #### 서버 환경 변수
 ```dotenv
 SESSION_KEY=             # 세션 키
-SPARCSSSO_CLIENT_ID=     # SPARCS SSO 클라이언트 ID
-SPARCSSSO_CLIENT_KEY=    # SPARCS SSO 클라이언트 키
+SPARCSSSO_CLIENT_ID=     # SPARCS SSO 클라이언트 ID (선택)
+SPARCSSSO_CLIENT_KEY=    # SPARCS SSO 클라이언트 키 (선택)
 FRONT_URL=               # 클라이언트가 배포된 URL
 AWS_ACCESS_KEY_ID=       # AWS Access Key ID
 AWS_SECRET_ACCESS_KEY=   # AWS Secret Access Key
